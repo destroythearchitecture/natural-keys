@@ -4,9 +4,7 @@
   "description": "To install dependencies:",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "natural-key": "./index.js"
-  },
+  "bin": "./index.mjs",
   "dependencies": {
     "clear": "^0.1.0",
     "ink": "^4.2.0",
