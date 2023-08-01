@@ -79,15 +79,15 @@ async function main() {
   const Keys = () => {
       return <Box flexDirection='column' paddingBottom={1}>
         <Text color={"red"}>Private Key</Text>
-        <Box borderStyle="single" width={62} flexDirection='column'>
+        <Box width={62} flexDirection='column'>
           <Text>{privateKey}</Text>
         </Box>
         <Text color={"green"}>Public Key</Text>
-        <Box borderStyle="single" width={62} flexDirection='column'>
+        <Box width={62} flexDirection='column'>
           <Text>{publicKey}</Text>
         </Box>
         <Text color={"blue"}>Revocation Certificate</Text>
-        <Box borderStyle="single" width={62} flexDirection='column'>
+        <Box width={62} flexDirection='column'>
           <Text>{revocationCertificate}</Text>
         </Box>
       </Box>

@@ -62,13 +62,13 @@ async function main() {
     const Keys = () => {
         return React.createElement(Box, { flexDirection: 'column', paddingBottom: 1 },
             React.createElement(Text, { color: "red" }, "Private Key"),
-            React.createElement(Box, { borderStyle: "single", width: 62, flexDirection: 'column' },
+            React.createElement(Box, { width: 62, flexDirection: 'column' },
                 React.createElement(Text, null, privateKey)),
             React.createElement(Text, { color: "green" }, "Public Key"),
-            React.createElement(Box, { borderStyle: "single", width: 62, flexDirection: 'column' },
+            React.createElement(Box, { width: 62, flexDirection: 'column' },
                 React.createElement(Text, null, publicKey)),
             React.createElement(Text, { color: "blue" }, "Revocation Certificate"),
-            React.createElement(Box, { borderStyle: "single", width: 62, flexDirection: 'column' },
+            React.createElement(Box, { width: 62, flexDirection: 'column' },
                 React.createElement(Text, null, revocationCertificate)));
     };
     render(React.createElement(Keys, null));
